@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .portfolio {
   background-color: #ffffff;
   display: flex;
@@ -25,6 +31,7 @@
 .portfolio .text-wrapper {
   top: 15px;
   color: var(--textwhite);
+  font-family: 'DM Serif Display', sans-serif;
   font-size: var(--h3-font-size);
   line-height: var(--h3-line-height);
   position: absolute;
@@ -39,7 +46,9 @@
 .portfolio .about-portfolio-blog {
   position: absolute;
   top: 27px;
-  left: 771px;
+  left: 671px;
+  display: flex;
+  gap: 40px;
   font-family: var(--text-font-family);
   font-weight: var(--text-font-weight);
   color: var(--textwhite);
@@ -49,6 +58,11 @@
   line-height: var(--text-line-height);
   white-space: nowrap;
   font-style: var(--text-font-style);
+}
+
+.about-portfolio-blog a {
+  color: var(--textwhite);
+  text-decoration: none;
 }
 
 .portfolio .dark-button {
