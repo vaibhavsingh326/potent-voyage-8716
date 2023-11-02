@@ -1,1 +1,63 @@
+header {
+  background-color: #434ccc;
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+}
+.menu {
+  display: flex;
+}
+.menu-logo {
+  color: var(--Text_White, #fff);
 
+  /* H3 */
+  font-family: DM Serif Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 120% */
+  flex-basis: 50%;
+  padding-left: 135px;
+}
+.menu-links {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+a {
+  text-decoration: none;
+  color: var(--Text_White, #fff);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+.portfolio-intro {
+  text-align: center;
+}
+.portfolio-intro h1{
+  color: var(--Text_White, #fff);
+  
+
+  /* H1 */
+  font-family: DM Serif Display;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 80px; 111.111% */
+  width: 280px;
+  height: 80px;
+  padding:47px 580px 47px 580px;
+}
+.portfolio-description {
+  color: var(--Text_White, #fff);
+  text-align: center;
+
+  /* Text_Big */
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 32px; 160% */
+}
+/* EVERYTHING ABOVE IS FOR THE HEADER SECTION  */
