@@ -319,6 +319,75 @@ main {
   border: none;
 }
 
+/* start of the section above newsletter */
+.sect{
+  display: flex;
+  background-color: rgb(245,246,252);
+  padding: 8rem;
+
+}
+.box{
+  border-radius: 5px;
+  margin: 0.5rem;
+  width: 25%;
+}
+.img{
+  width: 100%;
+  border-radius: 5px;
+}
+.viderer {
+  font-family: var(--h5-font-family);
+  font-weight: var(--h5-font-weight);
+  color: var(--textblack);
+  font-size: var(--h5-font-size);
+  letter-spacing: var(--h5-letter-spacing);
+  line-height: var(--h5-line-height);
+  white-space: nowrap;
+  font-style: var(--h5-font-style);
+  padding-top: 1.5rem;
+  height: 20%;
+}
+.his-cu-tamquam-dolor {
+  font-family: var(--h4-font-family);
+  font-weight: 600;
+  color: var(--textblack);
+  font-size: var(--h5-font-size);
+  letter-spacing: var(--h4-letter-spacing);
+  line-height: var(--h4-line-height);
+  font-style: var(--h4-font-style);
+  padding: 1rem 0rem 1rem;
+  height: 60%;
+}
+.felx{
+  display: flex;
+  height: 20%;
+}
+.insta_logo{
+  width: 48px;
+  height: 48px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: rgb(195, 199, 239);
+  padding:1rem;
+}
+.shape {
+  width: 18px;
+  height: 18px;
+}
+.design{
+  font-family: var(--text-gray-font-family);
+  font-weight: var(--text-gray-font-weight);
+  color: var(--textblack-50);
+  font-size: var(--text-gray-font-size);
+  letter-spacing: var(--text-gray-letter-spacing);
+  line-height: var(--text-gray-line-height);
+  white-space: nowrap;
+  font-style: var(--text-gray-font-style);
+  padding: 1rem 0rem 1rem 1rem;
+}
+
+/* end of the section */
+
 /* start of footer */
 
 footer {
