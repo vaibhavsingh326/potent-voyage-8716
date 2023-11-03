@@ -268,6 +268,7 @@ main {
   display: flex;
   margin-top: 41px;
   align-items: center;
+  margin-right: 135px;
 }
 
 .subscribe-column {
@@ -280,7 +281,7 @@ main {
 .subscribe-description {
   color: var(--Text_Black, #000);
   max-width: 516px;
-  font: 400 56px/114% DM Sans, sans-serif;
+  font: 400 56px/114% DM Serif Display, -apple-system, Roboto, Helvetica, sans-serif;
 }
 
 .subscribe-form {
@@ -297,7 +298,7 @@ main {
   border: 1px solid #dadada;
   background-color: #fff;
   flex-grow: 1;
-  padding: 18px 80px 18px 16px;
+  padding: 13px 314px 11px 16px; /* top, right, bottom, left */
   font: 400 16px/150% DM Sans, sans-serif;
   margin-right: 30px;
 }
@@ -314,9 +315,9 @@ main {
   white-space: nowrap;
   border-radius: 5px;
   background-color: var(--Primary_1, #434ccc);
-  padding: 18px 20px;
+  padding: 13px 45.5px 11px 45.5px;
   font: 700 16px/150% DM Sans, sans-serif;
-  border: none;
+  border: none; 
 }
 
 /* start of footer */
