@@ -280,7 +280,7 @@ main {
 .subscribe-description {
   color: var(--Text_Black, #000);
   max-width: 516px;
-  font: 400 56px/114% DM Serif Display, -apple-system, Roboto, Helvetica, sans-serif;
+  font: 400 56px/114% DM Sans, sans-serif;
 }
 
 .subscribe-form {
