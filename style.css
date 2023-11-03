@@ -26,15 +26,16 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: 48px; /* 120% */
-  flex-basis: 50%;
-  padding-left: 135px;
+  
+  padding: 16px 534px 16px 135px; 
 }
 .menu-links {
   display: flex;
   list-style: none;
   gap: 15px;
+  padding: 28px 345px 28px 771px;
 }
-a {
+.menu a {
   text-decoration: none;
   color: var(--Text_White, #fff);
   font-family: DM Sans;
@@ -44,6 +45,9 @@ a {
 }
 .portfolio-intro {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .portfolio-intro h1 {
   color: var(--Text_White, #fff);
@@ -54,8 +58,7 @@ a {
   font-style: normal;
   font-weight: 400;
   /* line-height: 80px; 111.111% */
-  width: 280px;
-  height: 80px;
+
   padding: 47px 580px 47px 580px;
 }
 .portfolio-description {
@@ -91,7 +94,7 @@ main {
 }
 
 .item-icon > p {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .item-image-content {
@@ -114,7 +117,7 @@ main {
   font-family: var(--text-gray-font-family);
   font-size: 16px;
   font-weight: 400;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .item-image-inside p {
