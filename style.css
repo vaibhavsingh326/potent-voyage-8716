@@ -320,7 +320,7 @@ main {
   border: none; 
 }
 
-/* start of the section above newsletter */
+/* start of the section above Subscribe button */
 .sect{
   display: flex;
   background-color: rgb(245,246,252);
@@ -352,7 +352,7 @@ main {
   font-family: var(--h4-font-family);
   font-weight: 600;
   color: var(--textblack);
-  font-size: var(--h5-font-size);
+  font-size: var(--h4-font-size);
   letter-spacing: var(--h4-letter-spacing);
   line-height: var(--h4-line-height);
   font-style: var(--h4-font-style);
