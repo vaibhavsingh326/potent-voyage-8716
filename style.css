@@ -26,14 +26,19 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: 48px; /* 120% */
-  
-  padding: 16px 534px 16px 135px; 
+
+  padding: 16px 534px 16px 135px;
+  margin-top: 16px;
 }
 .menu-links {
   display: flex;
   list-style: none;
   gap: 15px;
-  padding: 28px 40px 28px 534px;
+  padding: 28px 40px 28px 234px;
+  margin-top: 28px;
+}
+.menu li {
+  padding-left: 20px;
 }
 .menu a {
   text-decoration: none;
@@ -48,18 +53,21 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .portfolio-intro h1 {
   color: var(--Text_White, #fff);
-
+  text-align: center;
   /* H1 */
   font-family: DM Serif Display;
   font-size: 72px;
   font-style: normal;
   font-weight: 400;
-  /* line-height: 80px; 111.111% */
-
-  padding: 47px 580px 47px 580px;
+  line-height: 80px; /*111.111%*/
+  margin-top: 80px;
+  /* padding: 47px 580px 47px 580px; */
+  /* padding-left: 580px;
+  padding-right: 580px; */
 }
 .portfolio-description {
   color: var(--Text_White, #fff);
@@ -70,10 +78,23 @@ header {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  /* line-height: 32px; 160% */
+  line-height: 32px; /* 160% */
 }
-.sign-up{
-  margin-left: 40px;
+.sign-up {
+  margin-top: 40px;
+  padding: 1px 55px;
+  background: none;
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 170px;
+  height: 48px;
 }
 /* End of header section styling  */
 
@@ -166,7 +187,7 @@ main {
 .portfolio-inner-box-text {
   font-family: var(--text-gray-font-family);
   font-size: 15px;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .portfolio-inner-box-title {
@@ -178,7 +199,7 @@ main {
 
 .portfolio-items-inner-box button {
   background: none;
-  border: 1px solid rgba(255, 255, 255, .5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 5px;
   padding: 10px;
   cursor: pointer;
@@ -193,21 +214,21 @@ main {
 
 .main-buttons button {
   background: none;
-  border: 1px solid rgba(67, 76, 204, .5);
-  color: rgb(67,76,204);
+  border: 1px solid rgba(67, 76, 204, 0.5);
+  color: rgb(67, 76, 204);
   font-weight: 800;
   padding: 14px 18px;
   border-radius: 5px;
-  transition: background-color .25s, color .25s;
+  transition: background-color 0.25s, color 0.25s;
 }
 
 .main-buttons button:hover {
-  background-color: rgb(67,76,204);
+  background-color: rgb(67, 76, 204);
   color: var(--textwhite);
 }
 
 .main-buttons .wrapper-btn {
-  background-color: rgb(67,76,204);
+  background-color: rgb(67, 76, 204);
   color: var(--textwhite);
 }
 
