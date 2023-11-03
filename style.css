@@ -237,3 +237,131 @@ main {
 }
 
 /* End of the main section styling */
+
+
+/* start of footer */
+
+footer {
+  background: rgba(67, 76, 204, 0.0515);
+  display: flex;
+  justify-content: center;
+  color: var(--textblack-50);
+  font-family: var(--h1-font-family);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1170px;
+  flex-grow: 1;
+  margin-top: 80px;
+  display: flex;
+  margin-top: 79px;
+  margin-bottom: 50px;
+}
+
+.footer-col {
+  flex-grow: 1;
+}
+
+.logo-social {
+  flex-basis: 33.32%;
+}
+
+.causae {
+  flex-basis: 16.66%;
+}
+
+.description {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  align-self: stretch;
+  margin-top: 8px;
+  white-space: nowrap;
+  font: 400 16px/150% DM Sans, sans-serif;
+}
+
+.latest-posts {
+  flex-basis: 33.32%;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+
+.footer-logo {
+  margin-bottom: 40px;
+}
+
+.social {
+  display: flex;
+  gap: 13px;
+}
+
+.aboutus {
+  width: 270px;
+  margin-bottom: 32px;
+}
+.causae-align {
+  margin-bottom: 32px;
+  color: var(--Text_Black, #000);
+  font: 700 16px/150% DM Sans, sans-serif;
+}
+
+.latest-post {
+  display: flex;
+  gap: 30px;
+}
+
+.latest-post__image {
+  height: 48px;
+  flex-grow: 0;
+  width: 71px;
+  border-radius: 8px;
+}
+
+.latest-post__content {
+  display: flex;
+  align-self: start;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: auto;
+}
+.date {
+  color: var(--Text_Black, #000);
+  align-self: stretch;
+  white-space: nowrap;
+  font: 700 12px/200% DM Sans, sans-serif;
+}
+
+.footer-divider {
+  background: rgba(67, 76, 204, 0.0515);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-top: 1px solid #ccc;
+  padding: 20px 0;
+  text-align: center;
+}
+.end-container {
+  align-self: center;
+  display: flex;
+  width: 100%;
+  max-width: 1170px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.created-by {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font: 400 16px/150% DM Sans, sans-serif;
+}
+
+.logo-text {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  text-align: right;
+  align-self: stretch;
+  white-space: nowrap;
+  font: 400 16px/150% DM Sans, sans-serif;
+}
