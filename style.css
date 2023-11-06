@@ -256,6 +256,7 @@ main {
   display: flex;
   margin-top: 41px;
   align-items: center;
+  margin-right: 135px;
 }
 
 .subscribe-column {
@@ -285,7 +286,7 @@ main {
   border: 1px solid #dadada;
   background-color: #fff;
   flex-grow: 1;
-  padding: 18px 80px 18px 16px;
+  padding: 13px 314px 11px 16px; /* top, right, bottom, left */
   font: 400 16px/150% DM Sans, sans-serif;
   margin-right: 30px;
 }
@@ -302,9 +303,9 @@ main {
   white-space: nowrap;
   border-radius: 5px;
   background-color: var(--Primary_1, #434ccc);
-  padding: 18px 20px;
+  padding: 13px 45.5px 11px 45.5px;
   font: 700 16px/150% DM Sans, sans-serif;
-  border: none;
+  border: none; 
 }
 
 /* start of the section above newsletter */
@@ -481,13 +482,12 @@ footer {
   text-align: center;
 }
 .end-container {
-  align-self: center;
   display: flex;
   width: 100%;
   max-width: 1170px;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 0 20px;
+
 }
 
 .created-by {
