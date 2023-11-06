@@ -13,3 +13,4 @@ The figma link : https://www.figma.com/file/P728ZEPqIwLTH6OTsqcJcD/Responsive_Te
 The deployed link : https://spectacular-salmiakki-3bb190.netlify.app/
 
 The full page displayed image of the website page :
+<img src="https://github.com/vaibhavsingh326/potent-voyage-8716/assets/146928943/0f7065bc-eb1d-4018-85fc-2a15077b2eac" >
