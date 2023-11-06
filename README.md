@@ -27,6 +27,34 @@ The project was based on a Figma design provided to the team. The design in Figm
 ## Deployed Website
 The responsive website created by the team has been deployed and is accessible online. You can visit the website by clicking on the following link: [Potent Voyage Website](https://spectacular-salmiakki-3bb190.netlify.app/).
 
+## Tech Stack
+The Potent Voyage website was built using the following technologies and tools:
+
+- **HTML:** The foundation of the website's structure and content.
+- **CSS:** For styling and making the website visually appealing.
+- **Figma:** The Figma design served as a reference for the layout and styling.
+- **Netlify:** The website is deployed and hosted on Netlify, making it accessible online.
+
+## HTML Structure
+The HTML structure of the portfolio website is organized into several sections:
+
+- **Header:** This section contains the website's title, navigation menu, and a welcome message.
+- **Main:** This is the main content section of the website and includes portfolio items, buttons for navigation, and other content.
+- **Section Above Newsletter:** This section features content and images presented in boxes.
+- **Subscribe Section:** This is the newsletter subscription section with a title, description, and an input field for email submission.
+- **Footer:** The footer contains various sections, including a logo and social media links, categories, and a section with the latest blog posts.
+
+## CSS Styling
+The CSS stylesheet provides styling for various elements of the website. Some key styling aspects include:
+
+- Styling for the header, navigation menu, and welcome message.
+- Styling for portfolio items, including icons, images, and buttons.
+- Styling for the newsletter subscription section, including form elements.
+- Styling for the footer, logo, social media icons, categories, and blog posts.
+- Responsive design with appropriate margins, padding, fonts, and colors.
+
+The CSS stylesheet makes use of custom variables for font styles, colors, and spacing, providing a consistent and easily customizable design.
+
 ## Website Preview
 Here are some preview images of the website pages:
 - ![Website Image 1](https://github.com/vaibhavsingh326/potent-voyage-8716/assets/146928943/0f7065bc-eb1d-4018-85fc-2a15077b2eac)
