@@ -10,6 +10,6 @@ The figma link : https://www.figma.com/file/P728ZEPqIwLTH6OTsqcJcD/Responsive_Te
  Vishnu R - fw28_138
  Vaibhav Singh - fw25_196
 
-The deployed link : https://cozy-monstera-acc516.netlify.app/](https://spectacular-salmiakki-3bb190.netlify.app/
+The deployed link : https://spectacular-salmiakki-3bb190.netlify.app/
 
 The full page displayed image of the website page :
